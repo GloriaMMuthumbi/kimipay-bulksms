@@ -47,10 +47,10 @@ const ServicesSection = () => {
     };
     return (
         <div className="grid grid-cols-2 mt-5 mx-20 relative">
-            <div className="m-auto col flex items-center justify-center mr-6">
-                <img className="" src="./our-services.png" alt="services with phone" />
+            <div className="col flex items-center justify-center">
+                <img className="h-4/5" src="./our-services.png" alt="services with phone" />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center col">
                 <div className="relative">
                     <div className="overflow-hidden w-full flex mb-8">
                         {slides.map((slide, index) => (

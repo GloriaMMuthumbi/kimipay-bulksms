@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from '../../Navbar';
 import './styles.css';
-import ClientBanner from '../../components/ClientsBanner';
+import ClientBanner from '../components/ClientsBanner';
 
 const HeroSection = () => {
 

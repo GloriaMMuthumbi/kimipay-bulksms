@@ -2,7 +2,6 @@
 .scroll-container {
     width: 100%;
     overflow: hidden;
-    /* background-color: #f0f0f0; */
   }
   
   .scroll-content {
@@ -17,9 +16,7 @@
     margin: 10px;
     margin-right: 60px;
     margin-left: 60px;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
   }

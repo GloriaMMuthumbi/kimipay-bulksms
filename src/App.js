@@ -1,8 +1,10 @@
 import './App.css';
+import Footer from './Footer';
 import Navbar from './Navbar';
-import HeroSection from './sections/herosection/HeroSection';
-import ServicesSection from './sections/ourservicessection/ServicesSection';
-import StandardSection from './sections/standardssection/StandardSection';
+import HeroSection from './sections/HeroSection';
+import ServicesSection from './sections/ServicesSection';
+import StandardSection from './sections/StandardSection';
+import TestimonialSection from './sections/TestimonialSection';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <HeroSection />
       <ServicesSection />
       <StandardSection />
+      <TestimonialSection />
+      <Footer />
     </div>
   );
 }
