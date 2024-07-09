@@ -7,12 +7,12 @@ const RBTSkizaTunes = () => {
             <div className="grid grid-cols-2 space-x-10">
                 <div className="col">
                     <div className="row mb-10">
-                        <p className="raleway font-medium text-sm leading-relaxed mb-2">Ringback Tones transform the waiting 
+                        <p className="raleway font-medium text-sm leading-loose mb-2">Ringback Tones transform the waiting 
                         experience for callers by replacing the standard ringing sound with customized music or messages. 
                         This service allows businesses to promote their brand, entertain callers, or share important information 
                         while they wait for the call to be answered. By offering a personalized and engaging experience, Ringback 
                         Tones can leave a positive impression on callers and reinforce brand identity.</p>
-                        <p className="raleway font-medium text-sm leading-relaxed">Businesses can choose from a wide range of 
+                        <p className="raleway font-medium text-sm leading-loose">Businesses can choose from a wide range of 
                         pre-made tones or upload their custom sounds to suit their branding needs. Subscribers can manage their 
                         tones easily through an online portal, switching between different tones based on their preferences. 
                         Ringback Tones provide a unique opportunity to connect with your audience in an often-overlooked 

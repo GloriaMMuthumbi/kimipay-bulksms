@@ -7,13 +7,13 @@ const USSD = () => {
             <div className="grid grid-cols-2 space-x-10">
                 <div className="col">
                     <div className="row mb-10">
-                        <p className="raleway font-medium text-sm leading-relaxed mb-2">USSD (Unstructured Supplementary Service Data) 
+                        <p className="raleway font-medium text-sm leading-loose mb-2">USSD (Unstructured Supplementary Service Data) 
                         is a real-time messaging service used by GSM cellular telephones to communicate directly with the service 
                         provider's computers. This technology is widely used for mobile banking, customer feedback, and other 
                         interactive services, providing users with quick and easy access to essential information and services. 
                         USSD codes, such as *123#, allow users to navigate through menu options and receive immediate responses, 
                         making it an efficient tool for real-time interactions.</p>
-                        <p className="raleway font-medium text-sm leading-relaxed">The simplicity and speed of USSD make it an 
+                        <p className="raleway font-medium text-sm leading-loose">The simplicity and speed of USSD make it an 
                         excellent choice for businesses looking to offer interactive services without requiring an internet 
                         connection. From balance inquiries to service subscriptions, USSD can handle a wide range of customer 
                         requests swiftly. It enhances customer experience by providing instant responses and seamless 

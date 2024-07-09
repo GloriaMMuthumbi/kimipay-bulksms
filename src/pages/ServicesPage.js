@@ -25,10 +25,10 @@ const ServicePage = () => {
                         <li className="flex-1" key={index}>
                             <button
                                 onClick={() => setActiveTab(index)}
-                                className={`w-3/4 p-4 relative ${
+                                className={`w-3/4 py-3 relative text-lg raleway  ${
                                     activeTab === index
-                                        ? 'text-white bg-kimiBlue underline underline-offset-2'
-                                        : 'hover:text-gray-600 hover:bg-gray-50'
+                                        ? 'text-white bg-kimiBlue font-semibold underline underline-offset-2'
+                                        : 'hover:text-gray-600 hover:bg-gray-50 font-medium'
                                 }`}
                             >
                                 {tab.name}

@@ -7,13 +7,13 @@ const BulkSMS = () => {
             <div className="grid grid-cols-2 space-x-10">
                 <div className="col">
                     <div className="row mb-10">
-                        <p className="raleway font-medium text-sm leading-relaxed mb-2">Bulk SMS is a powerful tool for businesses 
+                        <p className="raleway font-medium text-sm leading-loose mb-2">Bulk SMS is a powerful tool for businesses 
                         looking to communicate with a large audience efficiently and effectively. Whether you're sending promotional 
                         messages to potential customers or transactional notifications to current clients, Bulk SMS allows you to reach 
                         thousands of recipients with just one click. The service is designed to be user-friendly, enabling you to compose, 
                         schedule, and send messages with ease. With high delivery rates and immediate receipt, Bulk SMS ensures your 
                         messages are seen by your target audience promptly.</p>
-                        <p className="raleway font-medium text-sm leading-relaxed">This service is perfect for marketing campaigns, 
+                        <p className="raleway font-medium text-sm leading-loose">This service is perfect for marketing campaigns, 
                         reminders, alerts, and more. By leveraging Bulk SMS, businesses can enhance their communication strategy, 
                         improve customer engagement, and increase brand awareness. The ability to create message templates further 
                         streamlines the process, saving time and maintaining consistency across all communications. Bulk SMS is 
