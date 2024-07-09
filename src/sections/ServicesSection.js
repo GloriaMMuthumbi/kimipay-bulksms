@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const ServicesSection = () => {
-
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const slides = [
@@ -14,7 +13,7 @@ const ServicesSection = () => {
         {
             title: "Bulk SMS",
             heading: "Instant Mass Messaging",
-            text: "Reach millions instantly with our bulk SMS service. From alerts to marketing, you can send large volumes of messages to keep your audience informed and engaged. Our platform ensures high deliverability rates and provides detailed analytics to help you track your campaign's performance.",
+            text: "Reach millions instantly with our bulk SMS service. From alerts to marketing, you can send large volumes of messages to keep your audience informed and engaged. Our platform ensures high deliverability rates and provides detailed analytics to help you track your campaign's performance. The SenderID is a one-time purchase, providing a unique identity for your messages.",
             buttonLabel: "Start with Bulk SMS",
         },
         {
@@ -37,7 +36,6 @@ const ServicesSection = () => {
         },
     ];
 
-
     const goToPreviousSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
     };
@@ -45,6 +43,7 @@ const ServicesSection = () => {
     const goToNextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
     };
+
     return (
         <div className="grid grid-cols-2 mt-5 mx-20 relative">
             <div className="col flex items-center justify-center">
@@ -61,7 +60,9 @@ const ServicesSection = () => {
                                 }`}
                             >
                                 <p className="uppercase text-blue-400 raleway text-sm font-medium tracking-widest mb-1">{slide.title}</p>
-                                <h2 className="text-4xl font-semibold montserrat mb-2">{slide.heading}</h2>
+                                <h2 className={`${
+                                    index === 0 ? 'text-4xl' : 'text-3xl'
+                                } font-semibold montserrat mb-2`}>{slide.heading}</h2>
                                 <p className="raleway font-medium m-2">{slide.text}</p>
                                 {slide.buttonLabel && (
                                     <button className="bg-kimiBlue text-white w-fit font-semibold raleway py-2 px-5 text-sm rounded-full">
@@ -95,5 +96,4 @@ const ServicesSection = () => {
     );
 };
 
- 
 export default ServicesSection;

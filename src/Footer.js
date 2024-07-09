@@ -9,7 +9,7 @@ const Footer = () => {
                     <img className="h-12 mr-3" width="auto" src="../logo22.png" alt="kimipay logo" />
                     </a>
                 </div>
-                <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                <div className="grid grid-cols-3 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                     <div className="space-y-3">
                         <h3 className="tracking-wide montserrat font-bold text-lg dark:text-gray-900">PRSP</h3>
                         <ul className="space-y-1 raleway font-medium">
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="container flex flex-row items-center">
+            <div className="container flex flex-row items-center border-none pb-5">
                 <div className="uppercase font-extrabold montserrat dark:text-gray-900 mr-4">Follow us</div>
                     <div className="flex justify-start space-x-3">
                         <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">

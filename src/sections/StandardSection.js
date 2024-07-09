@@ -7,9 +7,11 @@ const StandardSection = () => {
                 <p className='uppercase text-kimiBlue raleway text-sm font-medium tracking-widest mb-1'>Setting us apart</p>
                 <h2 className='text-4xl font-semibold montserrat mb-2 w-1/2 text-center'>Setting the standard</h2>
                 <p className='raleway font-medium w-3/5 text-center m-2'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
-                <div className='grid grid-cols-2 mb-2 shadow-md  items-center rounded-lg w-5/6 bg-white'>
-                    <img className="col mx-auto h-3/4" src='./floating-iphone.png' alt="floating iphone" />
-                    <div className="col p-3 h-3/4 overflow-y-scroll no-scrollbar pr-12">
+                <div className='grid grid-cols-2 mb-2 shadow-md items-center rounded-lg w-5/6 bg-white'>
+                    <div className="col flex items-center justify-center">
+                        <img className="h-4/5" src='./floating-iphone.png' alt="floating iphone" />
+                    </div>
+                    <div className="col p-3 h-4/5 overflow-y-scroll no-scrollbar pr-12">
                         <div className="row flex mt-3">
                             <div className="col flex flex-col items-center mr-8">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 24 24">
