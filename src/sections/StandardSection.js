@@ -6,7 +6,7 @@ const StandardSection = () => {
             <div className='flex flex-col items-center mb-5'>
                 <p className='uppercase text-kimiBlue raleway text-sm font-medium tracking-widest mb-1'>Setting us apart</p>
                 <h2 className='text-4xl font-semibold montserrat mb-2 w-1/2 text-center'>Setting the standard</h2>
-                <p className='raleway font-medium w-3/5 text-center m-2'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
+                <p className='raleway font-medium w-3/5 text-center m-2 leading-relaxed'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
                 <div className='grid grid-cols-2 mb-2 shadow-md items-center rounded-lg w-5/6 bg-white'>
                     <div className="col flex items-center justify-center">
                         <img className="h-4/5" src='./floating-iphone.png' alt="floating iphone" />
@@ -21,7 +21,7 @@ const StandardSection = () => {
                             </div>
                             <div className="col flex flex-col justify-center">
                                 <h3 className="montserrat text-2xl font-bold ">Versatile Premium Rate Services</h3>
-                                <p className="raleway text-sm font-medium">Our premium services are flexible to meet diverse business needs, and designed to adapt seamlessly to various applications and industries.</p>
+                                <p className="raleway text-sm font-medium leading-loose">Our premium services are flexible to meet diverse business needs, and designed to adapt seamlessly to various applications and industries.</p>
                                 <hr class="h-px my-3 border-0 dark:bg-gray-700"></hr>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const StandardSection = () => {
                             </div>
                             <div className="col flex flex-col justify-center">
                                 <h3 className="montserrat text-2xl font-bold ">Direct Network Connectivity</h3>
-                                <p className="raleway text-sm font-medium">Ensure seamless communication, with robust uninterrupted links that guarantee efficient and reliable message delivery to your audience.</p>
+                                <p className="raleway text-sm font-medium leading-loose">Ensure seamless communication, with robust uninterrupted links that guarantee efficient and reliable message delivery to your audience.</p>
                                 <hr class="h-px my-3 border-0 dark:bg-gray-700"></hr>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const StandardSection = () => {
                             </div>
                             <div className="col flex flex-col justify-center">
                                 <h3 className="montserrat text-2xl font-bold ">Interactive USSD Engagement</h3>
-                                <p className="raleway text-sm font-medium">Engage your customers like never before, with real-time, menu-driven interactions that enhance user experience and drive customer satisfaction.</p>
+                                <p className="raleway text-sm font-medium leading-loose">Engage your customers like never before, with real-time, menu-driven interactions that enhance user experience and drive customer satisfaction.</p>
                                 <hr class="h-px my-3 border-0 dark:bg-gray-700"></hr>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const StandardSection = () => {
                             </div>
                             <div className="col flex flex-col justify-center">
                                 <h3 className="montserrat text-2xl font-bold ">Targeted Audience Reach</h3>
-                                <p className="raleway text-sm font-medium">Our cutting-edge strategies ensure that your messages are delivered effectively and at the right time. Maximize your outreach with our capable services.</p>
+                                <p className="raleway text-sm font-medium leading-loose">Our cutting-edge strategies ensure that your messages are delivered effectively and at the right time. Maximize your outreach with our capable services.</p>
                                 <hr class="h-px my-3 border-0 dark:bg-gray-700"></hr>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const StandardSection = () => {
                             </div>
                             <div className="col flex flex-col justify-center">
                                 <h3 className="montserrat text-2xl font-bold ">Scalable Platform</h3>
-                                <p className="raleway text-sm font-medium">Our platform is designed to handle complexities without compromising performance, Trust us to provide robust infrastructure that supports your growth.</p>
+                                <p className="raleway text-sm font-medium leading-loose">Our platform is designed to handle complexities without compromising performance, Trust us to provide robust infrastructure that supports your growth.</p>
                                 <hr class="h-px my-3 border-0 dark:bg-gray-700"></hr>
                             </div>
                         </div>

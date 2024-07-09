@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className='flex flex-col items-center mt-10 mb-5'>
                 <p className='uppercase text-kimiBlue raleway text-sm font-medium tracking-widest mb-1'>Streamlined Solutions</p>
                 <h1 className='text-5xl font-extrabold montserrat mb-2 w-1/2 text-center'>Your leading PRSP platform</h1>
-                <p className='raleway font-medium w-3/5 text-center m-2'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
+                <p className='raleway font-medium w-2/5 text-center m-2 leading-relaxed'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
                 <div className='flex justify-center mb-2'>
                     <button className='uppercase bg-white font-bold px-6 py-5 rounded-2xl text-sm shadow-md mr-24 hover:text-kimiBlue'>Get started</button>
                     <div className='flex justify-center items-center parent raleway'>

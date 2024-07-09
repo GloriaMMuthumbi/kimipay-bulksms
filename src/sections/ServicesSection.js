@@ -63,7 +63,7 @@ const ServicesSection = () => {
                                 <h2 className={`${
                                     index === 0 ? 'text-4xl' : 'text-3xl'
                                 } font-semibold montserrat mb-2`}>{slide.heading}</h2>
-                                <p className="raleway font-medium m-2">{slide.text}</p>
+                                <p className="raleway font-medium m-2 text-sm leading-loose">{slide.text}</p>
                                 {slide.buttonLabel && (
                                     <button className="bg-kimiBlue text-white w-fit font-semibold raleway py-2 px-5 text-sm rounded-full">
                                         {slide.buttonLabel}
