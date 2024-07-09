@@ -1,9 +1,8 @@
-import React, { useRef, useEffect } from 'react';
-import './styles.css';
+// import React, { useRef, useEffect } from 'react';
+// import './styles.css';
 
-const ClientBanner = () => {
-
-//     const scrollRef = useRef(null);
+// const ClientBanner = () => {
+//   const scrollRef = useRef(null);
 
 //   useEffect(() => {
 //     const container = scrollRef.current;
@@ -18,107 +17,93 @@ const ClientBanner = () => {
 //       }
 //     };
 
-//     const interval = setInterval(scroll, 20);
+//     const interval = setInterval(scroll, 15);
 
 //     return () => {
 //       clearInterval(interval);
 //     };
 //   }, []);
 
-const scrollRef = useRef(null);
+//   return (
+//     <div className="scroll-container" ref={scrollRef}>
+//       <div className="scroll-content">
+//         <div className="scroll-item">
+//           <img src="./client1.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client2.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client3.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client4.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client5.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client6.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client7.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client1.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client2.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client3.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client4.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client5.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client6.png" alt="twixt tech" />
+//         </div>
+//         <div className="scroll-item">
+//           <img src="./client7.png" alt="twixt tech" />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-  useEffect(() => {
-    const scrollWidth = scrollRef.current.scrollWidth;
-    const containerWidth = scrollRef.current.clientWidth;
+// export default ClientBanner;
 
-    const scroll = () => {
-      if (scrollRef.current) {
-        scrollRef.current.scrollTo({
-          left: (scrollRef.current.scrollLeft + 1) % (scrollWidth + containerWidth),
-          behavior: 'smooth',
-        });
-      }
-    };
+import React from "react";
 
-    const interval = setInterval(scroll, 15);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
+const ClientBanner = () => {
     return ( 
-        <div className="scroll-container" ref={scrollRef}>
-        <div className="scroll-content">
-            <div className="scroll-item">
-                <img src="./client1.png" alt="twixt tech"/>
+        <div className="flex w-full justify-between items-center">
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client1.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client2.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client2.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client3.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client3.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client4.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client4.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client5.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client5.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client6.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client6.png" alt="twixt tech" />
             </div>
-            <div className="scroll-item">
-                <img src="./client7.png" alt="twixt tech"/>
+            <div>
+                <img className="px-5 h-auto w-auto" src="./client7.png" alt="twixt tech" />
             </div>
-
-
-            <div className="scroll-item">
-                <img src="./client1.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client2.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client3.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client4.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client5.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client6.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client7.png" alt="twixt tech"/>
-            </div>
-        {/*
-            <div className="scroll-item">
-                <img src="./client1.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client2.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client3.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client4.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client5.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client6.png" alt="twixt tech"/>
-            </div>
-            <div className="scroll-item">
-                <img src="./client7.png" alt="twixt tech"/>
-            </div> */}
         </div>
-        </div>
-    );
+     );
 }
  
 export default ClientBanner;
