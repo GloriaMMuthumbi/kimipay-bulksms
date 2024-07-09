@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     return ( 
         <div className="sticky bg-opacity-75 top-0 w-100 mx-auto py-2 raleway bg-kimiGray">
@@ -18,31 +20,39 @@ const Navbar = () => {
                         aria-expanded={isMenuOpen}
                     >
                         <span className="sr-only">Open main menu</span>
-                        <svg className={`${isMenuOpen ? 'hidden' : 'block'} w-6 h-6`} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path>
                         </svg>
-                        <svg className={`${isMenuOpen ? 'block' : 'hidden'} w-6 h-6`} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"></path>
                         </svg>
                     </button>
                     <div className={`${isMenuOpen ? 'block' : 'hidden'} md:block w-full md:w-auto`} id="mobile-menu">
                         <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium items-center">
                             <li>
-                                <a href="/" className="hover:font-semibold border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-bold md:p-0 font-medium">
+                                <NavLink
+                                    to="/services"
+                                    className={({ isActive }) =>
+                                        isActive ? 'text-kimiBlue border-b-2 border-kimiBlue font-semibold' : 'hover:text-gray-600 hover:bg-gray-50'
+                                    }
+                                >
                                     Services
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <button className="uppercase font-bold text-sm shadow-md bg-white text-black px-7 py-3 rounded-3xl sm:w-xl hover:text-kimiBlue">
+                                <NavLink
+                                    to="/login"
+                                    className="uppercase font-bold text-sm shadow-md bg-white text-black px-7 py-3 rounded-3xl sm:w-xl hover:text-kimiBlue"
+                                >
                                     Login
-                                </button>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-     );
+    );
 }
- 
+
 export default Navbar;
