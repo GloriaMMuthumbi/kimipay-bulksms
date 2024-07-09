@@ -1,0 +1,159 @@
+@keyframes underlineAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.underline-animation {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1.5px;
+  width: 0;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.parent:hover .underline-animation::after {
+  width: 100%;
+  cursor: pointer;
+}
+
+.parent:hover .scale-arrow {
+  transform: scaleX(1.25);
+  transition: transform 0.4s ease-in-out;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+.mouse_scroll {
+  display: block;
+  margin: 0 auto;
+  width: 6px;
+  height: 25px;
+}
+
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 3px;
+  height: 3px;
+  -ms-transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+   
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 0 3px 4px;
+  
+  width: 10px;
+  height: 10px;
+}
+
+.mouse {
+  height: 31.5px;
+  width: 18px;
+  border-radius: 14px;
+  transform: none;
+  border: 1.5px solid black;
+  top: 170px;
+}
+
+.wheel {
+  height: 4px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: black;
+  position: relative;
+  
+  height: 4px;
+  width: 4px;
+  border: 2px solid #000;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel{
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@-o-keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+
+@-webkit-keyframes mouse-scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}

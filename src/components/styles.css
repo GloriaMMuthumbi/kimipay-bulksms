@@ -1,0 +1,22 @@
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .scroll-item {
+    flex: 0 0 auto;
+    width: 100x;
+    height: 100px;
+    margin: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
