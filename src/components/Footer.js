@@ -5,11 +5,11 @@ const Footer = () => {
         <footer className="px-4 divide-y dark:bg-kimiGray dark:text-gray-800">
             <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
                 <div className="lg:w-1/3">
-                    <a rel="noopener noreferrer" href="https://kimipay.com" className="flex justify-center space-x-3 lg:justify-start">
-                    <img className="h-12 mr-3" width="auto" src="../logo22.png" alt="kimipay logo" />
+                    <a rel="noopener noreferrer" href="https://kimipay.com" className="flex md:justify-center space-x-3 lg:justify-start">
+                        <img className="h-12 mr-3" width="auto" src="../logo22.png" alt="kimipay logo" />
                     </a>
                 </div>
-                <div className="grid grid-cols-3 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                <div className="grid md:grid-cols-3 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                     <div className="space-y-3">
                         <h3 className="tracking-wide montserrat font-bold text-lg dark:text-gray-900">PRSP</h3>
                         <ul className="space-y-1 raleway font-medium">
@@ -42,7 +42,7 @@ const Footer = () => {
                             <input
                                 id="email"
                                 type="text"
-                                className="flex-1 px-4 py-2 text-kimiGray bg-white border rounded-md dark:bg-kimiwhite dark:text-gray-300 focus:border-kimiBlue dark:focus:border-kimiBlue focus:outline-none focus:ring focus:ring-opacity-20 focus:ring-kimiBlue"
+                                className="flex-1 px-4 py-4 md:py-2 md:mb-0 mb-2 text-kimiGray bg-white border rounded-md dark:bg-kimiwhite dark:text-gray-300 focus:border-kimiBlue dark:focus:border-kimiBlue focus:outline-none focus:ring focus:ring-opacity-20 focus:ring-kimiBlue"
                                 placeholder="Email Address"
                             />
                             <button className="uppercase font-bold text-sm shadow bg-white text-black px-7 py-3 rounded-xl sm:w-xl hover:text-kimiBlue">
@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container flex flex-row items-center border-none pb-5">
-                <div className="uppercase font-extrabold montserrat dark:text-gray-900 mr-4">Follow us</div>
+                <div className="uppercase font-extrabold montserrat dark:text-gray-900 text-sm md:text-base mr-4">Follow us</div>
                     <div className="flex justify-start space-x-3">
                         <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#1877F2" viewBox="0 0 32 32" className="w-5 h-5 fill-#1877F2">

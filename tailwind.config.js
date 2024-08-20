@@ -13,7 +13,7 @@ module.exports = {
         customGray: '#6b7280',
         kimiGray: '#f8f8f8',
         kimiDarkWhite: '#eeeeee',
-        kimiGrayText: '7F7F7F',
+        kimiGrayText: '#7F7F7F',
       },
     },
   },
