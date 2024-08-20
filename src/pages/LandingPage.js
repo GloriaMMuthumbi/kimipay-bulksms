@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar";
+import Navbar from "../components/Navbar";
 import HeroSection from "../sections/HeroSection";
 import ServicesSection from "../sections/ServicesSection";
 import StandardSection from "../sections/StandardSection";
@@ -8,7 +8,7 @@ import Footer from "../Footer";
 
 const LandingPage = () => {
     return ( 
-        <div className="App">
+        <div>
             <Navbar/>
             <HeroSection />
             <ServicesSection />

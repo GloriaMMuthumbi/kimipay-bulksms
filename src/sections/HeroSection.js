@@ -1,17 +1,17 @@
 import React from 'react';
 import './styles.css';
-import ClientBanner from '../components/ClientsBanner';
+// import ClientBanner from '../components/ClientsBanner';
 
 const HeroSection = () => {
 
     return (
-        <div>
-            <div className='flex flex-col items-center mt-10 mb-5'>
-                <p className='uppercase text-kimiBlue raleway text-sm font-medium tracking-widest mb-1'>Streamlined Solutions</p>
-                <h1 className='text-5xl font-extrabold montserrat mb-2 w-1/2 text-center'>Your leading PRSP platform</h1>
-                <p className='raleway font-medium w-2/5 text-center m-2 leading-relaxed'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
-                <div className='flex justify-center mb-2'>
-                    <button className='uppercase bg-white font-bold px-6 py-5 rounded-2xl text-sm shadow-md mr-24 hover:text-kimiBlue'>Get started</button>
+        <div className=''>
+            <div className='flex m-2 flex-col md:items-center pt-10 mp-5'>
+                <p className='uppercase px-2 text-kimiBlue raleway text-xs md:text-sm font-medium tracking-widest mb-1'>Streamlined Solutions</p>
+                <h1 className='text-3xl font-bold md:text-5xl m-2 md:font-extrabold montserrat mb-2 md:w-1/2 md:text-center'>Your leading PRSP platform</h1>
+                <p className='raleway font-medium text-sm md:w-2/5 md:text-center md:text-base m-2 leading-relaxed'>Discover the ultimate messaging solution with Kimipay. Our leading platform offers a diverse range of services, including bulk SMS, USSD, IVR, and more. </p>
+                <div className='mb-6 flex justify-center md:mb-2'>
+                    <button className='uppercase bg-white font-bold px-4 md:px-6 py-3 md:py-5 rounded-2xl text-sm shadow-md md:mr-24 mr-6 hover:text-kimiBlue'>Get started</button>
                     <div className='flex justify-center items-center parent raleway'>
                         <p className='mr-2 underline-animation font-medium text-sm'>Learn More</p>
                         <svg 
@@ -21,7 +21,7 @@ const HeroSection = () => {
                         </svg>
                     </div>
                 </div>
-                <img className='w-3/4 shadow-lg mb-4' src='./hero-img-1.png' alt='dashboard screenshot' />
+                <img className='hidden w-3/4 md:block shadow-lg mb-4' src='./hero-img-1.png' alt='dashboard screenshot' />
 
                 {/* <div class="mouse_scroll">
                     <div class="mouse">
@@ -29,7 +29,7 @@ const HeroSection = () => {
                     </div>
                 </div> */}
             </div>
-            <ClientBanner />
+            {/* <ClientBanner /> */}
         </div> 
     );
 }

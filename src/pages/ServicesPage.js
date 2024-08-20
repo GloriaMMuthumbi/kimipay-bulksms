@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../Navbar';
+import Navbar from '../components/Navbar';
 import BulkSMS from '../components/BulkSMSTab';
 import USSD from '../components/USSDTab';
 import SMSShortcodes from '../components/SMSShortcodesTab';
