@@ -4,7 +4,7 @@ import BulkSMS from '../components/BulkSMSTab';
 import USSD from '../components/USSDTab';
 import SMSShortcodes from '../components/SMSShortcodesTab';
 import RBTSkizaTunes from '../components/RBT&SkizaTunesTab';
-import Footer from '../Footer';
+import Footer from '../components/Footer';
 
 const ServicePage = () => {
     const [activeTab, setActiveTab] = useState(0);

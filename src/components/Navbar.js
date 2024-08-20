@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     return ( 
-        <div className="sticky bg-opacity-75 top-0 w-100 mx-auto py-2 raleway bg-kimiGray">
+        <div className="md:sticky bg-opacity-75 top-0 md:w-100 mx-auto py-2 raleway bg-kimiGray">
             <nav className="border-gray-200">
                 <div className="container mx-auto flex flex-wrap items-center justify-between relative">
                     <a href="/" className="flex">

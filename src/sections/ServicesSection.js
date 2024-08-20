@@ -45,8 +45,8 @@ const ServicesSection = () => {
     };
 
     return (
-        <div className="grid grid-cols-2 mt-5 mx-20 relative">
-            <div className="col flex items-center justify-center">
+        <div className="grid md:grid-cols-2 mt-5 mx-4 mb-8 md:mb-0 md:mx-20 relative">
+            <div className="col md:flex items-center justify-center hidden">
                 <img className="h-4/5" src="./our-services.png" alt="services with phone" />
             </div>
             <div className="flex items-center justify-center col">
@@ -59,11 +59,11 @@ const ServicesSection = () => {
                                     currentIndex === index ? 'opacity-100' : 'opacity-0 absolute'
                                 }`}
                             >
-                                <p className="uppercase text-blue-400 raleway text-sm font-medium tracking-widest mb-1">{slide.title}</p>
+                                <p className="uppercase text-blue-400 raleway text-xs md:text-sm font-medium tracking-widest mb-1">{slide.title}</p>
                                 <h2 className={`${
-                                    index === 0 ? 'text-4xl' : 'text-3xl'
+                                    index === 0 ? 'text-2xl md:text-4xl' : 'text-2xl md:text-3xl'
                                 } font-semibold montserrat mb-2`}>{slide.heading}</h2>
-                                <p className="raleway font-medium m-2 text-sm leading-loose">{slide.text}</p>
+                                <p className="raleway font-medium md:m-2 text-sm leading-loose">{slide.text}</p>
                                 {slide.buttonLabel && (
                                     <button className="bg-kimiBlue text-white w-fit font-semibold raleway py-2 px-5 text-sm rounded-full">
                                         {slide.buttonLabel}

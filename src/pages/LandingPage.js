@@ -4,7 +4,7 @@ import HeroSection from "../sections/HeroSection";
 import ServicesSection from "../sections/ServicesSection";
 import StandardSection from "../sections/StandardSection";
 import TestimonialSection from "../sections/TestimonialSection";
-import Footer from "../Footer";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
     return ( 
