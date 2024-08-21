@@ -19,13 +19,13 @@ const ServicePage = () => {
     return (
         <div className="App">
             <Navbar />
-            <div className='mx-10 mt-10'>
-                <ul className="flex w-full text-sm justify-center font-medium text-center text-gray-500 border-b border-gray-100">
+            <div className='md:mx-10 mt-10'>
+                <ul className="flex flex-col md:flex-row w-full text-sm justify-center font-medium text-center text-gray-500 border-b border-gray-100">
                     {tabs.map((tab, index) => (
                         <li className="flex-1" key={index}>
                             <button
                                 onClick={() => setActiveTab(index)}
-                                className={`w-3/4 py-3 relative text-lg raleway  ${
+                                className={`w-full md:w-3/4 py-3 relative text-lg raleway ${
                                     activeTab === index
                                         ? 'text-white bg-kimiBlue font-semibold underline underline-offset-2'
                                         : 'hover:text-gray-600 hover:bg-gray-50 font-medium'
@@ -36,7 +36,7 @@ const ServicePage = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="p-10">
+                <div className="p-4 md:p-10">
                     {tabs[activeTab].content}
                 </div>
             </div>
