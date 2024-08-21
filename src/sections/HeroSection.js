@@ -13,7 +13,7 @@ const HeroSection = () => {
                 <div className='mb-6 flex justify-center md:mb-2'>
                     <button className='uppercase bg-white font-bold px-6 py-4 md:py-5 rounded-2xl text-xs md:text-sm shadow-md md:mr-24 mr-6 hover:text-kimiBlue'>Get started</button>
                     <div className='flex justify-center items-center parent raleway'>
-                        <p className='mr-2 underline-animation font-medium text-xs md:text-sm'>Learn More</p>
+                        <p className='mr-2 underline-animation text-nowrap font-medium text-xs md:text-sm'>Learn More</p>
                         <svg 
                             className='scale-arrow transition-transform duration-300 ease-in-out transform w-1/4 md:w-full' 
                             width="30" height="8" viewBox="0 0 35 8" fill="none" xmlns="http://www.w3.org/2000/svg">

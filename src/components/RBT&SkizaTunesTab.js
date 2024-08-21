@@ -4,7 +4,7 @@ const RBTSkizaTunes = () => {
     return ( 
         <div>
             <h2 className="montserrat font-extrabold text-2xl mb-4">Ringback Tones and Skiza Tunes</h2>
-            <div className="grid grid-cols-2 space-x-10">
+            <div className="grid md:grid-cols-2 space-x-10">
                 <div className="col">
                     <div className="row mb-10">
                         <p className="raleway font-medium text-sm leading-loose mb-2">Ringback Tones transform the waiting 
