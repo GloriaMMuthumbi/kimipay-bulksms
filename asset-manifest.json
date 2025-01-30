@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kimipay-bulksmy/static/css/main.970de1ff.css",
+    "main.js": "/kimipay-bulksmy/static/js/main.723ae3c4.js",
+    "static/js/453.796c9553.chunk.js": "/kimipay-bulksmy/static/js/453.796c9553.chunk.js",
+    "index.html": "/kimipay-bulksmy/index.html",
+    "main.970de1ff.css.map": "/kimipay-bulksmy/static/css/main.970de1ff.css.map",
+    "main.723ae3c4.js.map": "/kimipay-bulksmy/static/js/main.723ae3c4.js.map",
+    "453.796c9553.chunk.js.map": "/kimipay-bulksmy/static/js/453.796c9553.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.970de1ff.css",
+    "static/js/main.723ae3c4.js"
+  ]
+}
