@@ -43,7 +43,7 @@ const Navbar = () => {
                             </li>
                             <li className="my-2 md:my-0">
                                 <NavLink
-                                    to="/login"
+                                    to="#"
                                     className="uppercase font-bold text-sm shadow-md bg-white text-black px-7 py-3 rounded-3xl sm:w-xl hover:text-kimiBlue"
                                 >
                                     Login
